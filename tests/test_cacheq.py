@@ -1,4 +1,15 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+"""
+test_django-cacheq
+------------
+
+Tests for `django-cacheq` module.
+"""
 import os
+import shutil
+from unittest import TestCase
 import sys
 import operator
 import tempfile

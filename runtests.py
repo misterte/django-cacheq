@@ -1,5 +1,38 @@
 import sys
 
+
+# caches
+CACHES = {
+    # default is filebased
+    'default': {
+        'BACKEND': 'django.core.cache.backends.filebased.FileBasedCache',
+        'LOCATION': '/var/tmp/cacheqtest_filebased',
+        'TIMEOUT': 300,
+        'KEY_PREFIX': 'cacheqtests'
+    },
+    'memcached': {
+        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+        'LOCATION': 'unix:/var/tmp/cacheqtest_memcached.sock',
+        'TIMEOUT': 300,
+        'KEY_PREFIX': 'cacheqtests'
+    },
+    'redis': {
+        'BACKEND': 'redis_cache.RedisCache',
+        'LOCATION': 'unix:/var/tmp/cacheqtest_redis.sock',
+        'TIMEOUT': 300,
+        'KEY_PREFIX': 'cacheqtests',
+        'OPTIONS': {
+            'DB': 0
+        },
+}
+CACHEQ = {
+    'CACHE': 'default',                     # defaults to 'default' anyway
+    'LOCKFILE': '/var/tmp/cacheqtest.lock', # defaults to 'var/tmp/cacheq.lock'
+    'MEMCACHED_TESTS_USING': 'memcached',   # only required if running memcached tests
+    'REDIS_TESTS_USING': 'redis',           # only required if running redis tests
+}
+
+
 try:
     from django.conf import settings
 
@@ -11,7 +44,6 @@ try:
                 "ENGINE": "django.db.backends.sqlite3",
             }
         },
-        # ADD CACHEQ AND CACHE SETTINGS
         ROOT_URLCONF="cacheq.urls",
         INSTALLED_APPS=[
             "django.contrib.auth",
@@ -22,6 +54,9 @@ try:
         SITE_ID=1,
         NOSE_ARGS=['-s'],
         MIDDLEWARE_CLASSES=(),
+        # ADD CACHEQ AND CACHE SETTINGS
+        CACHES=CACHES,
+        CACHEQ=CACHEQ,
     )
 
     try:
