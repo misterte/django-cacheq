@@ -249,7 +249,7 @@ class Worker(object):
         return self._runloop()
 
 
-def get_worker(queue_name='default', using='default', worker_name='worker', pulse=1):
+def get_worker(queue_name='default', using='default', worker_name='worker', pulse=1.0):
     """
     Returns a worker with cacheq = CacheQ(queue_name, using).
     """

@@ -12,14 +12,14 @@ Install django-cacheq::
 
     pip install django-cacheq
 
-Add it to your installed apps
+Add it to your installed apps::
 
     INSTALLED_APPS = (
         ...
         'cacheq',
     )
 
-And that's it with setup. You can add some basic settings too, but the are not really required.
+And that's it with setup. You can add some basic settings too, but the are not really required.::
     
     CACHES = {
         'default: ...,
@@ -78,28 +78,25 @@ This will run a cqworker with name "worker123" in foreground listening to queue 
 
 These are the default values
 
-    using: 'default',
-    queue: 'default',
-    name: 'worker'
-    pulse: 1.0
+- using: 'default'
+- queue: 'default'
+- name: 'worker'
+- pulse: 1.0
 
-Running the worker in burst mode::
-
-When running tests it's helpful to run the worker and exit when jobs are done. You can do this by either calling the cqworker command or using the worker.run method.
+When running tests it's helpful to run the worker and exit when jobs are done. You can do this by either calling the cqworker command with the --burst option or by using the worker.run method.::
 
     python manage.py cqworker --using=cacheq --queue=myqueue --burst
-
+    
     # or programatically
     from cacheq import get_worker
     
     worker = get_worker(queue_name='myqueue', using='cacheq')
     worker.run(burst=True)
 
-Cleaning jobs from database::
 
 django-cacheq uses django ORM as a backend for job results. This is only something that fitted specific needs I had at the time I wrote this package, but I guess it would be wise to remove it at some point and replace it by a cache backend too, or maybe adding a setting that allows other database to be used specifically as a results backend.
 
-Anyways, for now you can clear jobs by using the cqclear command.
+Anyways, for now you can clear jobs by using the cqclear command::
 
     python manage.py cqclear <done failed pending all> [--no-input]
     

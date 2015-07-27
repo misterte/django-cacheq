@@ -133,3 +133,11 @@
 [19143] 27 Jul 16:35:22.001 * Background saving started by pid 24750
 [24750] 27 Jul 16:35:22.001 * DB saved on disk
 [19143] 27 Jul 16:35:22.012 * Background saving terminated with success
+[19143] 27 Jul 16:40:25.483 * 10 changes in 300 seconds. Saving...
+[19143] 27 Jul 16:40:25.483 * Background saving started by pid 25216
+[25216] 27 Jul 16:40:25.484 * DB saved on disk
+[19143] 27 Jul 16:40:25.494 * Background saving terminated with success
+[19143] 27 Jul 16:45:26.009 * 10 changes in 300 seconds. Saving...
+[19143] 27 Jul 16:45:26.010 * Background saving started by pid 25691
+[25691] 27 Jul 16:45:26.011 * DB saved on disk
+[19143] 27 Jul 16:45:26.021 * Background saving terminated with success
