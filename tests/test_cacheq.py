@@ -168,35 +168,33 @@ class RedisCacheQueueTests(LockFileCacheQueueTests):
     """
     def setUp(self):
         # get alternate cache from settings
-        sqsettings = getattr(settings, 'CACHEQ', {})
-        using = _sqsettings.get('REDIS_TESTS_USING', 'default')
+        cqsettings = getattr(settings, 'CACHEQ', {})
+        using = cqsettings.get('REDIS_TESTS_USING', 'default')
         self.cq = get_cache_queue(name='RedisCacheQueueTests', using=using)
         # reset queue to avoid overlapping with other test behavior
         self.cq.reset()
         self.RUN_TESTS = type(get_cache(using)).__name__ == 'RedisCache'
 
 
-if 'test' in sys.argv:
-    # create a testing queue and some decorated funcs. we add 
-    # this here so it will be deleted once tests finnish
-    cq = CacheQ(name='CacheQTests')
-    
-    @sq.job
-    def myfunc(a,b):
-        return a+b
-    
-    def task1(fname, content):
-        with open(fname, 'w') as f:
-            f.write(content)
-    
-    def task2(fname, content):
-        with open(fname, 'r') as f:
-            c = f.read()
-        assert c == content
-    
-    @sq.job
-    def failtask():
-        raise Exception("Custom exception")
+# create a testing queue and some decorated funcs
+cq = CacheQ(name='CacheQTests')
+
+@cq.job
+def myfunc(a,b):
+    return a+b
+
+def task1(fname, content):
+    with open(fname, 'w') as f:
+        f.write(content)
+
+def task2(fname, content):
+    with open(fname, 'r') as f:
+        c = f.read()
+    assert c == content
+
+@cq.job
+def failtask():
+    raise Exception("Custom exception")
 
 
 class CacheQTests(TestCase):
@@ -204,13 +202,13 @@ class CacheQTests(TestCase):
     Tests that we can create a CacheQ object that manages job placement.
     """
     def setUp(self):
-        self.sq = CacheQ('CacheQTests')
+        self.cq = CacheQ('CacheQTests')
     
     def test_enqueue(self):
         """
         Tests that we can enqueue jobs using CacheQ.enqueue.
         """
-        self.sq.enqueue(operator.add, 1, 2)
+        self.cq.enqueue(operator.add, 1, 2)
         # check if a Job object was created
         self.assertEqual(Job.objects.count(), 1)
         job = Job.objects.all()[0]
@@ -225,7 +223,7 @@ class CacheQTests(TestCase):
         # no more tasks in job
         self.assertEqual(job.pop_task(), None)
         # check if message queue was signaled
-        self.assertEqual(self.sq.queue.pop_message(), job.uuid)
+        self.assertEqual(self.cq.queue.pop_message(), job.uuid)
     
     def test_enqueue_many(self):
         """
@@ -236,7 +234,7 @@ class CacheQTests(TestCase):
         # JSON field will not store tuples, only lists
         # so we need to take that into account for args
         tasks = [(operator.add, [1,2], {}), (operator.div, [], {'a': 2, 'b': 2})]
-        self.sq.enqueue_many(tasks)
+        self.cq.enqueue_many(tasks)
         # only one job was created
         self.assertEqual(Job.objects.count(), 1)
         job = Job.objects.all()[0]
@@ -248,14 +246,14 @@ class CacheQTests(TestCase):
         # no more tasks are available
         self.assertEqual(job.pop_task(), None)
         # check if message queue was signaled
-        self.assertEqual(self.sq.queue.pop_message(), job.uuid)
+        self.assertEqual(self.cq.queue.pop_message(), job.uuid)
     
     def test_job_decorator(self):
         """
         Tests that we can enqueu a function by calling func.delay(*args, **kwargs), which 
         will create a Job with one task and return the job instance.
         """
-        decorated = self.sq.job(operator.div)
+        decorated = self.cq.job(operator.div)
         decorated.delay(1,b=2)
         # this should have created one job
         self.assertEqual(Job.objects.count(), 1)
@@ -267,7 +265,7 @@ class CacheQTests(TestCase):
         # no more tasks
         self.assertEqual(job.pop_task(), None)
         # check if message queue was signaled
-        self.assertEqual(self.sq.queue.pop_message(), job.uuid)
+        self.assertEqual(self.cq.queue.pop_message(), job.uuid)
         # try with decorated myfunc
         myfunc.delay(2,3)
         self.assertEqual(Job.objects.count(), 2)
@@ -278,7 +276,7 @@ class CacheQTests(TestCase):
         self.assertEqual(task[2], {})
         self.assertEqual(job.pop_task(), None)
         # check if message queue was signaled
-        self.assertEqual(self.sq.queue.pop_message(), job.uuid)
+        self.assertEqual(self.cq.queue.pop_message(), job.uuid)
 
 
 class WorkerTests(TestCase):
@@ -295,7 +293,7 @@ class WorkerTests(TestCase):
         """
         Tests we can process a single task in burst mode.
         """
-        job = self.sq.enqueue(operator.add, 1,2)
+        job = self.cq.enqueue(operator.add, 1,2)
         self.worker.run(burst=True)
         # check job status and result
         self.assertTrue(job.ready())
@@ -308,7 +306,7 @@ class WorkerTests(TestCase):
         """
         Tests we can process multiple tasks for a single job in burst mode.
         """
-        job = self.sq.enqueue_many([
+        job = self.cq.enqueue_many([
                 (operator.add, (2,3), {}), (operator.div, (5,float(2)), {})])
         self.worker.run(burst=True)
         # check job status and results
@@ -321,10 +319,10 @@ class WorkerTests(TestCase):
         Tests that we can add a series of tasks that depend on each other, which will be run 
         in order. Also, multiple jobs will be submitted.
         """
-        job1 = self.sq.enqueue_many([
+        job1 = self.cq.enqueue_many([
             (task1, (self.tempfname, 'Hello world!'), {}), 
             (task2, (self.tempfname, 'Hello world!'), {})])
-        job2 = self.sq.enqueue(operator.add, 3,3)
+        job2 = self.cq.enqueue(operator.add, 3,3)
         self.worker.run(burst=True)
         # check job status and response
         self.assertTrue(job1.ready())

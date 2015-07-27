@@ -1,0 +1,55 @@
+[3273] 27 Jul 12:34:41.030 * Max number of open files set to 10032
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 2.6.10 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in stand alone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 3273
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+[3273] 27 Jul 12:34:41.033 # Server started, Redis version 2.6.10
+[3273] 27 Jul 12:34:41.033 * The server is now ready to accept connections on port 6379
+[3273] 27 Jul 12:34:41.033 * The server is now ready to accept connections at /tmp/cacheqtest-redis.sock
+[3273 | signal handler] (1438025763) Received SIGTERM, scheduling shutdown...
+[3273] 27 Jul 12:36:03.820 # User requested shutdown...
+[3273] 27 Jul 12:36:03.820 * Saving the final RDB snapshot before exiting.
+[3273] 27 Jul 12:36:03.821 * DB saved on disk
+[3273] 27 Jul 12:36:03.821 * Removing the unix socket file.
+[3273] 27 Jul 12:36:03.821 # Redis is now ready to exit, bye bye...
+[3448] 27 Jul 12:36:30.208 * Max number of open files set to 10032
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 2.6.10 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in stand alone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 3448
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+[3448] 27 Jul 12:36:30.209 # Server started, Redis version 2.6.10
+[3448] 27 Jul 12:36:30.209 * DB loaded from disk: 0.000 seconds
+[3448] 27 Jul 12:36:30.209 * The server is now ready to accept connections on port 6379
+[3448] 27 Jul 12:36:30.209 * The server is now ready to accept connections at /var/tmp/cacheqtest-redis.sock
+[3448] 27 Jul 12:45:52.578 * 10 changes in 300 seconds. Saving...
+[3448] 27 Jul 12:45:52.578 * Background saving started by pid 4276
+[4276] 27 Jul 12:45:52.579 * DB saved on disk
+[3448] 27 Jul 12:45:52.588 * Background saving terminated with success

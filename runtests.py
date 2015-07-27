@@ -6,25 +6,28 @@ CACHES = {
     # default is filebased
     'default': {
         'BACKEND': 'django.core.cache.backends.filebased.FileBasedCache',
-        'LOCATION': '/var/tmp/cacheqtest_filebased',
+        'LOCATION': '/var/tmp/cacheqtest-filebased',
         'TIMEOUT': 300,
         'KEY_PREFIX': 'cacheqtests'
     },
     'memcached': {
         'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
-        'LOCATION': 'unix:/var/tmp/cacheqtest_memcached.sock',
+        'LOCATION': 'unix:/var/tmp/cacheqtest-memcached.sock',
         'TIMEOUT': 300,
         'KEY_PREFIX': 'cacheqtests'
     },
     'redis': {
         'BACKEND': 'redis_cache.RedisCache',
-        'LOCATION': 'unix:/var/tmp/cacheqtest_redis.sock',
+        'LOCATION': '/var/tmp/cacheqtest-redis.sock',
         'TIMEOUT': 300,
         'KEY_PREFIX': 'cacheqtests',
         'OPTIONS': {
             'DB': 0
         },
+    },
 }
+
+
 CACHEQ = {
     'CACHE': 'default',                     # defaults to 'default' anyway
     'LOCKFILE': '/var/tmp/cacheqtest.lock', # defaults to 'var/tmp/cacheq.lock'
@@ -32,6 +35,9 @@ CACHEQ = {
     'REDIS_TESTS_USING': 'redis',           # only required if running redis tests
 }
 
+# create lockfile
+with open(CACHEQ['LOCKFILE'], 'w+') as f:
+    pass
 
 try:
     from django.conf import settings

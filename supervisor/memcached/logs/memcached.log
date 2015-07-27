@@ -1,0 +1,1531 @@
+slab class   1: chunk size        96 perslab   10922
+slab class   2: chunk size       120 perslab    8738
+slab class   3: chunk size       152 perslab    6898
+slab class   4: chunk size       192 perslab    5461
+slab class   5: chunk size       240 perslab    4369
+slab class   6: chunk size       304 perslab    3449
+slab class   7: chunk size       384 perslab    2730
+slab class   8: chunk size       480 perslab    2184
+slab class   9: chunk size       600 perslab    1747
+slab class  10: chunk size       752 perslab    1394
+slab class  11: chunk size       944 perslab    1110
+slab class  12: chunk size      1184 perslab     885
+slab class  13: chunk size      1480 perslab     708
+slab class  14: chunk size      1856 perslab     564
+slab class  15: chunk size      2320 perslab     451
+slab class  16: chunk size      2904 perslab     361
+slab class  17: chunk size      3632 perslab     288
+slab class  18: chunk size      4544 perslab     230
+slab class  19: chunk size      5680 perslab     184
+slab class  20: chunk size      7104 perslab     147
+slab class  21: chunk size      8880 perslab     118
+slab class  22: chunk size     11104 perslab      94
+slab class  23: chunk size     13880 perslab      75
+slab class  24: chunk size     17352 perslab      60
+slab class  25: chunk size     21696 perslab      48
+slab class  26: chunk size     27120 perslab      38
+slab class  27: chunk size     33904 perslab      30
+slab class  28: chunk size     42384 perslab      24
+slab class  29: chunk size     52984 perslab      19
+slab class  30: chunk size     66232 perslab      15
+slab class  31: chunk size     82792 perslab      12
+slab class  32: chunk size    103496 perslab      10
+slab class  33: chunk size    129376 perslab       8
+slab class  34: chunk size    161720 perslab       6
+slab class  35: chunk size    202152 perslab       5
+slab class  36: chunk size    252696 perslab       4
+slab class  37: chunk size    315872 perslab       3
+slab class  38: chunk size    394840 perslab       2
+slab class  39: chunk size    493552 perslab       2
+slab class  40: chunk size    616944 perslab       1
+slab class  41: chunk size    771184 perslab       1
+slab class  42: chunk size   1048576 perslab       1
+<16 server listening (auto-negotiate)
+slab class   1: chunk size        96 perslab   10922
+slab class   2: chunk size       120 perslab    8738
+slab class   3: chunk size       152 perslab    6898
+slab class   4: chunk size       192 perslab    5461
+slab class   5: chunk size       240 perslab    4369
+slab class   6: chunk size       304 perslab    3449
+slab class   7: chunk size       384 perslab    2730
+slab class   8: chunk size       480 perslab    2184
+slab class   9: chunk size       600 perslab    1747
+slab class  10: chunk size       752 perslab    1394
+slab class  11: chunk size       944 perslab    1110
+slab class  12: chunk size      1184 perslab     885
+slab class  13: chunk size      1480 perslab     708
+slab class  14: chunk size      1856 perslab     564
+slab class  15: chunk size      2320 perslab     451
+slab class  16: chunk size      2904 perslab     361
+slab class  17: chunk size      3632 perslab     288
+slab class  18: chunk size      4544 perslab     230
+slab class  19: chunk size      5680 perslab     184
+slab class  20: chunk size      7104 perslab     147
+slab class  21: chunk size      8880 perslab     118
+slab class  22: chunk size     11104 perslab      94
+slab class  23: chunk size     13880 perslab      75
+slab class  24: chunk size     17352 perslab      60
+slab class  25: chunk size     21696 perslab      48
+slab class  26: chunk size     27120 perslab      38
+slab class  27: chunk size     33904 perslab      30
+slab class  28: chunk size     42384 perslab      24
+slab class  29: chunk size     52984 perslab      19
+slab class  30: chunk size     66232 perslab      15
+slab class  31: chunk size     82792 perslab      12
+slab class  32: chunk size    103496 perslab      10
+slab class  33: chunk size    129376 perslab       8
+slab class  34: chunk size    161720 perslab       6
+slab class  35: chunk size    202152 perslab       5
+slab class  36: chunk size    252696 perslab       4
+slab class  37: chunk size    315872 perslab       3
+slab class  38: chunk size    394840 perslab       2
+slab class  39: chunk size    493552 perslab       2
+slab class  40: chunk size    616944 perslab       1
+slab class  41: chunk size    771184 perslab       1
+slab class  42: chunk size   1048576 perslab       1
+<16 server listening (auto-negotiate)
+<17 new auto-negotiating client connection
+17: Client using the ascii protocol
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>17 END
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501097944 33
+>17 STORED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 NOT_FOUND
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501097944 1
+>17 STORED
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:7751b4f9-0f8e-4213-a68a-31093e7fe847 0 1501097944 3
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501097944 118
+>17 STORED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501097944 1
+>17 STORED
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:949df307-5c2e-4eb4-9241-c4a60ab5981c 0 1501097944 3
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501097944 203
+>17 STORED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501097944 1
+>17 STORED
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:6e2d02d2-b8e1-4d28-9762-da8fcb727729 2 1501097944 3
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501097944 287
+>17 STORED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501097944 1
+>17 STORED
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:194419ad-c8dc-415c-85d2-ef5ed38e7024 1 1501097944 28
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501097944 371
+>17 STORED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501097944 1
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501097944 287
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:7751b4f9-0f8e-4213-a68a-31093e7fe847
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:7751b4f9-0f8e-4213-a68a-31093e7fe847
+>17 END
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:7751b4f9-0f8e-4213-a68a-31093e7fe847
+>17 DELETED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501097944 1
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501097944 203
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:949df307-5c2e-4eb4-9241-c4a60ab5981c
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:949df307-5c2e-4eb4-9241-c4a60ab5981c 0 3
+bar
+
+>17 END
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:949df307-5c2e-4eb4-9241-c4a60ab5981c
+>17 DELETED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501097944 1
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501097944 118
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:6e2d02d2-b8e1-4d28-9762-da8fcb727729
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:6e2d02d2-b8e1-4d28-9762-da8fcb727729
+>17 END
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:6e2d02d2-b8e1-4d28-9762-da8fcb727729
+>17 DELETED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501097944 1
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501097944 33
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:194419ad-c8dc-415c-85d2-ef5ed38e7024
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:194419ad-c8dc-415c-85d2-ef5ed38e7024
+>17 END
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:194419ad-c8dc-415c-85d2-ef5ed38e7024
+>17 DELETED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 NOT_FOUND
+<18 new auto-negotiating client connection
+18: Client using the ascii protocol
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 END
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry6 1 33
+€ccollections
+deque
+q
+>18 END
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501097945 33
+>18 STORED
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 NOT_FOUND
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501097945 1
+>18 STORED
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501097945 1
+>18 NOT_STORED
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 END
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 DELETED
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501097945 1
+>18 STORED
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501097945 1
+>18 NOT_STORED
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 END
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501097945 1
+>18 NOT_STORED
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 END
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501097945 1
+>18 NOT_STORED
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 END
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 DELETED
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501097945 1
+>18 STORED
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:50ad0e7e-335d-44ac-9f70-d5e5e012d39b 0 1501097945 3
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry1 1 33
+€ccollections
+deque
+q
+>18 END
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501097945 118
+>18 STORED
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 DELETED
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501097945 1
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>18 END
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501097945 33
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:50ad0e7e-335d-44ac-9f70-d5e5e012d39b
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:50ad0e7e-335d-44ac-9f70-d5e5e012d39b 0 3
+bar
+
+>18 END
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:50ad0e7e-335d-44ac-9f70-d5e5e012d39b
+>18 DELETED
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 DELETED
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501097945 1
+>18 STORED
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 DELETED
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 NOT_FOUND
+<19 new auto-negotiating client connection
+19: Client using the ascii protocol
+<19 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>19 STORED
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>19 END
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry1 1 33
+€ccollections
+deque
+q
+>19 END
+<19 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501097945 33
+>19 STORED
+<19 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>19 NOT_FOUND
+<19 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501097945 1
+>19 STORED
+<19 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:ee4219f4-6e96-4f88-b17e-77dc18ec7d9c 0 1501097945 4
+>19 STORED
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry5 1 33
+€ccollections
+deque
+q
+>19 END
+<19 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501097945 118
+>19 STORED
+<19 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>19 DELETED
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 END
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 END
+<19 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501097945 1
+>19 STORED
+<19 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501097945 1
+>19 NOT_STORED
+<19 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>19 STORED
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>19 END
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 END
+<19 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:ee4219f4-6e96-4f88-b17e-77dc18ec7d9c 0
+>19 DELETED
+<19 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501097945 33
+>19 STORED
+<19 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>19 DELETED
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:ee4219f4-6e96-4f88-b17e-77dc18ec7d9c
+>19 END
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registrye 1 33
+€ccollections
+deque
+q
+>19 END
+<19 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501097945 1
+>19 STORED
+<19 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>19 DELETED
+<19 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>19 NOT_FOUND
+<19 connection closed.
+<18 connection closed.
+<17 connection closed.
+<17 new auto-negotiating client connection
+17: Client using the ascii protocol
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>17 END
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registrye 1 33
+€ccollections
+deque
+q
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098126 33
+>17 STORED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 NOT_FOUND
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098126 1
+>17 STORED
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:eab3d6af-7163-46a9-abf9-73a92dc86c70 0 1501098126 3
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry5 1 33
+€ccollections
+deque
+q
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098126 118
+>17 STORED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098126 1
+>17 STORED
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:6559f411-13ac-4bca-9a2a-5589d805a14b 0 1501098126 3
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098126 203
+>17 STORED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098126 1
+>17 STORED
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:cbaefd3d-e1bb-48c4-b19a-e246a81449a2 2 1501098126 3
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098126 287
+>17 STORED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098126 1
+>17 STORED
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:52eda9ab-9db2-4e47-b4fe-7370110fdfa1 1 1501098126 28
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098126 371
+>17 STORED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098126 1
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098126 287
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:eab3d6af-7163-46a9-abf9-73a92dc86c70
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:eab3d6af-7163-46a9-abf9-73a92dc86c70 0 3
+foo
+
+UspamqG?¿|í‘hr°ˆ†qs.
+
+>17 END
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:eab3d6af-7163-46a9-abf9-73a92dc86c70
+>17 DELETED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098126 1
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098126 203
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:6559f411-13ac-4bca-9a2a-5589d805a14b
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:6559f411-13ac-4bca-9a2a-5589d805a14b 0 3
+bar
+
+>17 END
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:6559f411-13ac-4bca-9a2a-5589d805a14b
+>17 DELETED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098126 1
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098126 118
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:cbaefd3d-e1bb-48c4-b19a-e246a81449a2
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:cbaefd3d-e1bb-48c4-b19a-e246a81449a2 2 3
+123
+
+>17 END
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:cbaefd3d-e1bb-48c4-b19a-e246a81449a2
+>17 DELETED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098126 1
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098126 33
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:52eda9ab-9db2-4e47-b4fe-7370110fdfa1
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:52eda9ab-9db2-4e47-b4fe-7370110fdfa1
+>17 END
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:52eda9ab-9db2-4e47-b4fe-7370110fdfa1
+>17 DELETED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 NOT_FOUND
+<18 new auto-negotiating client connection
+18: Client using the ascii protocol
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 END
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registryc 1 33
+€ccollections
+deque
+q
+>18 END
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098126 33
+>18 STORED
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 NOT_FOUND
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098126 1
+>18 STORED
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098126 1
+>18 NOT_STORED
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 END
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 DELETED
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098126 1
+>18 STORED
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098126 1
+>18 NOT_STORED
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 END
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098126 1
+>18 NOT_STORED
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 END
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098126 1
+>18 NOT_STORED
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 END
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 DELETED
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098126 1
+>18 STORED
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:5f37e94f-da7d-48a7-b5c6-e1252b398b4b 0 1501098126 3
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry5 1 33
+€ccollections
+deque
+q
+>18 END
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098126 118
+>18 STORED
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 DELETED
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098126 1
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>18 END
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098126 33
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:5f37e94f-da7d-48a7-b5c6-e1252b398b4b
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:5f37e94f-da7d-48a7-b5c6-e1252b398b4b 0 3
+bar
+
+>18 END
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:5f37e94f-da7d-48a7-b5c6-e1252b398b4b
+>18 DELETED
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 DELETED
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098126 1
+>18 STORED
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 DELETED
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 NOT_FOUND
+<19 new auto-negotiating client connection
+19: Client using the ascii protocol
+<19 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>19 STORED
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>19 END
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry5 1 33
+€ccollections
+deque
+q
+>19 END
+<19 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098126 33
+>19 STORED
+<19 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>19 NOT_FOUND
+<19 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098126 1
+>19 STORED
+<19 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:c1b0ec71-d641-460d-81eb-de8b5bfd39fa 0 1501098126 4
+>19 STORED
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry5 1 33
+€ccollections
+deque
+q
+>19 END
+<19 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098126 118
+>19 STORED
+<19 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>19 DELETED
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 END
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 END
+<19 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098126 1
+>19 STORED
+<19 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098126 1
+>19 NOT_STORED
+<19 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>19 STORED
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>19 END
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 END
+<19 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:c1b0ec71-d641-460d-81eb-de8b5bfd39fa 0
+>19 DELETED
+<19 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098126 33
+>19 STORED
+<19 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>19 DELETED
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:c1b0ec71-d641-460d-81eb-de8b5bfd39fa
+>19 END
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registryc 1 33
+€ccollections
+deque
+q
+>19 END
+<19 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098126 1
+>19 STORED
+<19 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>19 DELETED
+<19 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>19 NOT_FOUND
+<19 connection closed.
+<18 connection closed.
+<17 connection closed.
+<17 new auto-negotiating client connection
+17: Client using the ascii protocol
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>17 END
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registryc 1 33
+€ccollections
+deque
+q
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098189 33
+>17 STORED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 NOT_FOUND
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098189 1
+>17 STORED
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:edaf76e0-8d33-444d-bf47-4c5133fd674f 0 1501098189 3
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry5 1 33
+€ccollections
+deque
+q
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098189 118
+>17 STORED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098189 1
+>17 STORED
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:d6ffc74c-9755-48c4-bc3f-cfab34d86678 0 1501098189 3
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098189 203
+>17 STORED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098189 1
+>17 STORED
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:9d467f12-737d-4c41-9c8c-0612a3722c42 2 1501098189 3
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098189 287
+>17 STORED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098189 1
+>17 STORED
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:28eaaa54-f33b-49af-92df-ad7806777ab6 1 1501098189 28
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098189 371
+>17 STORED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098189 1
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098189 287
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:edaf76e0-8d33-444d-bf47-4c5133fd674f
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:edaf76e0-8d33-444d-bf47-4c5133fd674f 0 3
+foo
+
+UspamqG?¿|í‘hr°ˆ†qs.
+
+>17 END
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:edaf76e0-8d33-444d-bf47-4c5133fd674f
+>17 DELETED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098189 1
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098189 203
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:d6ffc74c-9755-48c4-bc3f-cfab34d86678
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:d6ffc74c-9755-48c4-bc3f-cfab34d86678 0 3
+bar
+
+>17 END
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:d6ffc74c-9755-48c4-bc3f-cfab34d86678
+>17 DELETED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098189 1
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098189 118
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:9d467f12-737d-4c41-9c8c-0612a3722c42
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:9d467f12-737d-4c41-9c8c-0612a3722c42 2 3
+123
+
+>17 END
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:9d467f12-737d-4c41-9c8c-0612a3722c42
+>17 DELETED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098189 1
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098189 33
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:28eaaa54-f33b-49af-92df-ad7806777ab6
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:28eaaa54-f33b-49af-92df-ad7806777ab6 1 28
+€}q
+>17 END
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:28eaaa54-f33b-49af-92df-ad7806777ab6
+>17 DELETED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 NOT_FOUND
+<18 new auto-negotiating client connection
+18: Client using the ascii protocol
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 END
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry9 1 33
+€ccollections
+deque
+q
+>18 END
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098189 33
+>18 STORED
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 NOT_FOUND
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098189 1
+>18 STORED
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098189 1
+>18 NOT_STORED
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 END
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 DELETED
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098189 1
+>18 STORED
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098189 1
+>18 NOT_STORED
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 END
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098189 1
+>18 NOT_STORED
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 END
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098189 1
+>18 NOT_STORED
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 END
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 DELETED
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098189 1
+>18 STORED
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:bccc1c68-6df2-4f69-8d6f-4cef645a28bf 0 1501098189 3
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry2 1 33
+€ccollections
+deque
+q
+>18 END
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098189 118
+>18 STORED
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 DELETED
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098189 1
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>18 END
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098189 33
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:bccc1c68-6df2-4f69-8d6f-4cef645a28bf
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:bccc1c68-6df2-4f69-8d6f-4cef645a28bf 0 3
+bar
+
+>18 END
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:bccc1c68-6df2-4f69-8d6f-4cef645a28bf
+>18 DELETED
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 DELETED
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098189 1
+>18 STORED
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 DELETED
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 NOT_FOUND
+<19 new auto-negotiating client connection
+19: Client using the ascii protocol
+<19 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>19 STORED
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>19 END
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry2 1 33
+€ccollections
+deque
+q
+>19 END
+<19 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098189 33
+>19 STORED
+<19 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>19 NOT_FOUND
+<19 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098189 1
+>19 STORED
+<19 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:06992eec-1e38-4661-b693-4b37d36ce9cf 0 1501098189 4
+>19 STORED
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registryb 1 33
+€ccollections
+deque
+q
+>19 END
+<19 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098189 118
+>19 STORED
+<19 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>19 DELETED
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 END
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 END
+<19 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098189 1
+>19 STORED
+<19 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098189 1
+>19 NOT_STORED
+<19 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>19 STORED
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>19 END
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 END
+<19 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:06992eec-1e38-4661-b693-4b37d36ce9cf 0
+>19 DELETED
+<19 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098189 33
+>19 STORED
+<19 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>19 DELETED
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:06992eec-1e38-4661-b693-4b37d36ce9cf
+>19 END
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry0 1 33
+€ccollections
+deque
+q
+>19 END
+<19 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098189 1
+>19 STORED
+<19 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>19 DELETED
+<19 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>19 NOT_FOUND
+<19 connection closed.
+<18 connection closed.
+<17 connection closed.
+<17 new auto-negotiating client connection
+17: Client using the ascii protocol
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>17 END
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry0 1 33
+€ccollections
+deque
+q
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098327 33
+>17 STORED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 NOT_FOUND
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098327 1
+>17 STORED
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:85e56d1f-ca31-4065-8ac5-4c727b2daa0e 0 1501098327 3
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registryb 1 33
+€ccollections
+deque
+q
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098327 118
+>17 STORED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098327 1
+>17 STORED
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:4c763f1e-13e2-404b-9e3b-b034332d4ba9 0 1501098327 3
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098327 203
+>17 STORED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098327 1
+>17 STORED
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:fbbfa91c-110f-4eb7-98e7-30f7368f2699 2 1501098327 3
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098327 287
+>17 STORED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098327 1
+>17 STORED
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:7af6c333-f487-4309-b61d-fe2fe123122b 1 1501098327 28
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098327 371
+>17 STORED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098327 1
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098327 287
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:85e56d1f-ca31-4065-8ac5-4c727b2daa0e
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:85e56d1f-ca31-4065-8ac5-4c727b2daa0e 0 3
+foo
+
+UspamqG?¿|í‘hr°ˆ†qs.
+
+>17 END
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:85e56d1f-ca31-4065-8ac5-4c727b2daa0e
+>17 DELETED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098327 1
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098327 203
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:4c763f1e-13e2-404b-9e3b-b034332d4ba9
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:4c763f1e-13e2-404b-9e3b-b034332d4ba9 0 3
+bar
+
+>17 END
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:4c763f1e-13e2-404b-9e3b-b034332d4ba9
+>17 DELETED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098327 1
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098327 118
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:fbbfa91c-110f-4eb7-98e7-30f7368f2699
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:fbbfa91c-110f-4eb7-98e7-30f7368f2699 2 3
+123
+
+>17 END
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:fbbfa91c-110f-4eb7-98e7-30f7368f2699
+>17 DELETED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098327 1
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098327 33
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:7af6c333-f487-4309-b61d-fe2fe123122b
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:7af6c333-f487-4309-b61d-fe2fe123122b 1 28
+€}q
+>17 END
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:7af6c333-f487-4309-b61d-fe2fe123122b
+>17 DELETED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 NOT_FOUND
+<18 new auto-negotiating client connection
+18: Client using the ascii protocol
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 END
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registryf 1 33
+€ccollections
+deque
+q
+>18 END
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098327 33
+>18 STORED
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 NOT_FOUND
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098327 1
+>18 STORED
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098327 1
+>18 NOT_STORED
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 END
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 DELETED
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098327 1
+>18 STORED
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098327 1
+>18 NOT_STORED
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 END
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098327 1
+>18 NOT_STORED
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 END
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098327 1
+>18 NOT_STORED
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 END
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 DELETED
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098327 1
+>18 STORED
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:5ec3af32-79f3-420f-bd45-8d7b664bf079 0 1501098327 3
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry7 1 33
+€ccollections
+deque
+q
+>18 END
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098327 118
+>18 STORED
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 DELETED
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098327 1
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>18 END
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098327 33
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:5ec3af32-79f3-420f-bd45-8d7b664bf079
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:5ec3af32-79f3-420f-bd45-8d7b664bf079 0 3
+bar
+
+>18 END
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:5ec3af32-79f3-420f-bd45-8d7b664bf079
+>18 DELETED
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 DELETED
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098327 1
+>18 STORED
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 DELETED
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 NOT_FOUND
+<19 new auto-negotiating client connection
+19: Client using the ascii protocol
+<19 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>19 STORED
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>19 END
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry7 1 33
+€ccollections
+deque
+q
+>19 END
+<19 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098327 33
+>19 STORED
+<19 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>19 NOT_FOUND
+<19 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098327 1
+>19 STORED
+<19 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:c77c1c84-b99c-4b98-a204-52488ed46128 0 1501098327 4
+>19 STORED
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry5 1 33
+€ccollections
+deque
+q
+>19 END
+<19 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098327 118
+>19 STORED
+<19 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>19 DELETED
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 END
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 END
+<19 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098327 1
+>19 STORED
+<19 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098327 1
+>19 NOT_STORED
+<19 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>19 STORED
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>19 END
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 END
+<19 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:c77c1c84-b99c-4b98-a204-52488ed46128 0
+>19 DELETED
+<19 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098327 33
+>19 STORED
+<19 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>19 DELETED
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:c77c1c84-b99c-4b98-a204-52488ed46128
+>19 END
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registryc 1 33
+€ccollections
+deque
+q
+>19 END
+<19 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098327 1
+>19 STORED
+<19 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>19 DELETED
+<19 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>19 NOT_FOUND
+<19 connection closed.
+<18 connection closed.
+<17 connection closed.
+<17 new auto-negotiating client connection
+17: Client using the ascii protocol
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>17 END
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registryc 1 33
+€ccollections
+deque
+q
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098352 33
+>17 STORED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 NOT_FOUND
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098352 1
+>17 STORED
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:881ce156-91ff-4a6a-bee8-b1c727c49d57 0 1501098352 3
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry5 1 33
+€ccollections
+deque
+q
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098352 118
+>17 STORED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098352 1
+>17 STORED
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:702b7453-9365-471c-8f37-fa09918adfd7 0 1501098352 3
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098352 203
+>17 STORED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098352 1
+>17 STORED
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:bef688d6-ca82-4c42-b33c-5cc4e20c3620 2 1501098352 3
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098352 287
+>17 STORED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098352 1
+>17 STORED
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:a5c15157-4135-476f-81ef-3e2cb3a9b414 1 1501098352 28
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098352 371
+>17 STORED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098352 1
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098352 287
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:881ce156-91ff-4a6a-bee8-b1c727c49d57
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:881ce156-91ff-4a6a-bee8-b1c727c49d57 0 3
+foo
+
+UspamqG?¿|í‘hr°ˆ†qs.
+
+>17 END
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:881ce156-91ff-4a6a-bee8-b1c727c49d57
+>17 DELETED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098352 1
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098352 203
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:702b7453-9365-471c-8f37-fa09918adfd7
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:702b7453-9365-471c-8f37-fa09918adfd7 0 3
+bar
+
+>17 END
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:702b7453-9365-471c-8f37-fa09918adfd7
+>17 DELETED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098352 1
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098352 118
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:bef688d6-ca82-4c42-b33c-5cc4e20c3620
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:bef688d6-ca82-4c42-b33c-5cc4e20c3620 2 3
+123
+
+>17 END
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:bef688d6-ca82-4c42-b33c-5cc4e20c3620
+>17 DELETED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098352 1
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>17 END
+<17 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098352 33
+>17 STORED
+<17 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:a5c15157-4135-476f-81ef-3e2cb3a9b414
+>17 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:a5c15157-4135-476f-81ef-3e2cb3a9b414 1 28
+€}q
+>17 END
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:a5c15157-4135-476f-81ef-3e2cb3a9b414
+>17 DELETED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 DELETED
+<17 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>17 NOT_FOUND
+<18 new auto-negotiating client connection
+18: Client using the ascii protocol
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 END
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registryb 1 33
+€ccollections
+deque
+q
+>18 END
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098352 33
+>18 STORED
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 NOT_FOUND
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098352 1
+>18 STORED
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098352 1
+>18 NOT_STORED
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 END
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 DELETED
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098352 1
+>18 STORED
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098352 1
+>18 NOT_STORED
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 END
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098352 1
+>18 NOT_STORED
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 END
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098352 1
+>18 NOT_STORED
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>18 END
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 DELETED
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098352 1
+>18 STORED
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:148257e2-b29a-4912-b156-aa8312201cb6 0 1501098352 3
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registrya 1 33
+€ccollections
+deque
+q
+>18 END
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098352 118
+>18 STORED
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 DELETED
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098352 1
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>18 END
+<18 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098352 33
+>18 STORED
+<18 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:148257e2-b29a-4912-b156-aa8312201cb6
+>18 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:148257e2-b29a-4912-b156-aa8312201cb6 0 3
+bar
+
+>18 END
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:148257e2-b29a-4912-b156-aa8312201cb6
+>18 DELETED
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 DELETED
+<18 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098352 1
+>18 STORED
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 DELETED
+<18 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>18 NOT_FOUND
+<19 new auto-negotiating client connection
+19: Client using the ascii protocol
+<19 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>19 STORED
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>19 END
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registrya 1 33
+€ccollections
+deque
+q
+>19 END
+<19 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098352 33
+>19 STORED
+<19 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>19 NOT_FOUND
+<19 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098352 1
+>19 STORED
+<19 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:03a8c13c-c823-44c0-a3b3-eea932ad5891 0 1501098352 4
+>19 STORED
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry1 1 33
+€ccollections
+deque
+q
+>19 END
+<19 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098352 118
+>19 STORED
+<19 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>19 DELETED
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 END
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 END
+<19 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098352 1
+>19 STORED
+<19 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098352 1
+>19 NOT_STORED
+<19 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping 2 300 1
+>19 STORED
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:ping
+>19 END
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 END
+<19 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:03a8c13c-c823-44c0-a3b3-eea932ad5891 0
+>19 DELETED
+<19 set cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry 1 1501098352 33
+>19 STORED
+<19 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>19 DELETED
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:message:03a8c13c-c823-44c0-a3b3-eea932ad5891
+>19 END
+<19 get cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry
+>19 sending key cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:registry0 1 33
+€ccollections
+deque
+q
+>19 END
+<19 add cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock 2 1501098352 1
+>19 STORED
+<19 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>19 DELETED
+<19 delete cacheqtests:1:CacheQueue:MemcachedCacheQueueTests:lock
+>19 NOT_FOUND
+<19 connection closed.
+<18 connection closed.
+<17 connection closed.

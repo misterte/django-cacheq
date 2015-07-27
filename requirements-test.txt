@@ -10,4 +10,5 @@ tox>=1.7.0
 # Additional test requirements go here
 python-memcached==1.54
 redis==2.10.3
+django-redis-cache==0.13.1
 

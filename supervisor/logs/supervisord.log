@@ -1,0 +1,45 @@
+2015-07-27 12:29:14,930 WARN Included extra file "/Users/misterte/Dropbox/andresbucchi.com/projects/django-cacheq/src/django-cacheq/supervisor/memcached/memcached.ini" during parsing
+2015-07-27 12:29:14,930 WARN Included extra file "/Users/misterte/Dropbox/andresbucchi.com/projects/django-cacheq/src/django-cacheq/supervisor/redis/redis.ini" during parsing
+2015-07-27 12:29:14,930 INFO Increased RLIMIT_NOFILE limit to 1024
+2015-07-27 12:31:26,832 WARN Included extra file "/Users/misterte/Dropbox/andresbucchi.com/projects/django-cacheq/src/django-cacheq/supervisor/memcached/memcached.ini" during parsing
+2015-07-27 12:31:26,832 WARN Included extra file "/Users/misterte/Dropbox/andresbucchi.com/projects/django-cacheq/src/django-cacheq/supervisor/redis/redis.ini" during parsing
+2015-07-27 12:31:26,832 INFO Increased RLIMIT_NOFILE limit to 1024
+2015-07-27 12:31:26,843 INFO RPC interface 'supervisor' initialized
+2015-07-27 12:31:26,843 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2015-07-27 12:31:26,844 INFO daemonizing the supervisord process
+2015-07-27 12:31:26,845 INFO supervisord started with pid 2993
+2015-07-27 12:31:27,848 INFO spawnerr: can't find command '`which'
+2015-07-27 12:31:27,849 INFO spawnerr: can't find command '`which'
+2015-07-27 12:31:28,851 INFO spawnerr: can't find command '`which'
+2015-07-27 12:31:28,851 INFO spawnerr: can't find command '`which'
+2015-07-27 12:31:30,854 INFO spawnerr: can't find command '`which'
+2015-07-27 12:31:30,855 INFO spawnerr: can't find command '`which'
+2015-07-27 12:31:34,272 INFO spawnerr: can't find command '`which'
+2015-07-27 12:31:34,272 INFO gave up: redis entered FATAL state, too many start retries too quickly
+2015-07-27 12:31:34,272 INFO spawnerr: can't find command '`which'
+2015-07-27 12:31:34,272 INFO gave up: memcached entered FATAL state, too many start retries too quickly
+2015-07-27 12:34:39,940 WARN Included extra file "/Users/misterte/Dropbox/andresbucchi.com/projects/django-cacheq/src/django-cacheq/supervisor/memcached/memcached.ini" during parsing
+2015-07-27 12:34:39,940 WARN Included extra file "/Users/misterte/Dropbox/andresbucchi.com/projects/django-cacheq/src/django-cacheq/supervisor/redis/redis.ini" during parsing
+2015-07-27 12:34:39,940 INFO Increased RLIMIT_NOFILE limit to 1024
+2015-07-27 12:34:39,951 INFO RPC interface 'supervisor' initialized
+2015-07-27 12:34:39,951 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2015-07-27 12:34:39,952 INFO daemonizing the supervisord process
+2015-07-27 12:34:39,953 INFO supervisord started with pid 3266
+2015-07-27 12:34:40,956 INFO spawned: 'redis' with pid 3273
+2015-07-27 12:34:40,958 INFO spawned: 'memcached' with pid 3274
+2015-07-27 12:34:42,035 INFO success: redis entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-07-27 12:34:42,035 INFO success: memcached entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-07-27 12:36:03,819 INFO waiting for redis, memcached to die
+2015-07-27 12:36:03,820 INFO stopped: memcached (terminated by SIGTERM)
+2015-07-27 12:36:03,821 INFO stopped: redis (exit status 0)
+2015-07-27 12:36:29,174 WARN Included extra file "/Users/misterte/Dropbox/andresbucchi.com/projects/django-cacheq/src/django-cacheq/supervisor/memcached/memcached.ini" during parsing
+2015-07-27 12:36:29,174 WARN Included extra file "/Users/misterte/Dropbox/andresbucchi.com/projects/django-cacheq/src/django-cacheq/supervisor/redis/redis.ini" during parsing
+2015-07-27 12:36:29,174 INFO Increased RLIMIT_NOFILE limit to 1024
+2015-07-27 12:36:29,184 INFO RPC interface 'supervisor' initialized
+2015-07-27 12:36:29,184 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2015-07-27 12:36:29,185 INFO daemonizing the supervisord process
+2015-07-27 12:36:29,186 INFO supervisord started with pid 3447
+2015-07-27 12:36:30,190 INFO spawned: 'redis' with pid 3448
+2015-07-27 12:36:30,192 INFO spawned: 'memcached' with pid 3449
+2015-07-27 12:36:31,862 INFO success: redis entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-07-27 12:36:31,862 INFO success: memcached entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
