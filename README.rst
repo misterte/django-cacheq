@@ -12,6 +12,12 @@ Install django-cacheq::
 
     pip install django-cacheq
 
+Requirements
+
+- django>=1.5.1
+- jsonfield==1.0.3
+- lockfile==0.10.2
+
 Add it to your installed apps::
 
     INSTALLED_APPS = (
