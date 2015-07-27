@@ -19,7 +19,7 @@ class Job(models.Model):
     Tasks will be contained inside the 'tasks' field, which is a JSONField.
     
     For instance:
-    >>> from exsutils.models import Job
+    >>> from cacheq.models import Job
     >>> import operator
     >>> job = Job.objects.create()
     >>> job.add_task(operator.add, 1,2)
@@ -29,16 +29,15 @@ class Job(models.Model):
     Jobs will be identified by worker with a unique uuid. Tasks will be executed according 
     to job.tasks.pop(0).
     
-    Note that Jobs sould be submitted via the exsutils.cacheq.CacheQ Api, *not* the 
+    Note that Jobs sould be submitted via the cacheq.CacheQ Api, *not* the 
     Job model, which is meant to be a low level Api.
     
     >>> import operator
     >>> from django.core.cache import cache
-    >>> from exsutils.cacheq import CacheQ, Worker
-    >>> from exsutils.models import Job
-    >>> queue = CacheQ(name='testqueue', using='default') # as in settings.CACHES['default']
+    >>> from cacheq import CacheQ, Worker
+    >>> from cacheq.models import Job
+    >>> queue = CacheQ(name='testqueue', using='foobar') # as in settings.CACHES['foobar']
     >>> worker = Worker(cacheq=queue, worker_name='my-worker')
-    >>> # or you can just use get_cacheq('testqueue') and get_worker('testqueue')
     >>> job = queue.enqueue(operator.add, 1,2)
     >>> worker.run(burst=True)  # note that burst mode is blocking
     >>> type(job) is Job

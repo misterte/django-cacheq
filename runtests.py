@@ -30,14 +30,11 @@ CACHES = {
 
 CACHEQ = {
     'CACHE': 'default',                     # defaults to 'default' anyway
-    'LOCKFILE': '/var/tmp/cacheqtest.lock', # defaults to 'var/tmp/cacheq.lock'
+    'LOCKFILE': '/var/tmp/cacheqtest.lock', # defaults to '/var/tmp/cacheq.lock'
     'MEMCACHED_TESTS_USING': 'memcached',   # only required if running memcached tests
     'REDIS_TESTS_USING': 'redis',           # only required if running redis tests
 }
 
-# create lockfile
-with open(CACHEQ['LOCKFILE'], 'w+') as f:
-    pass
 
 try:
     from django.conf import settings

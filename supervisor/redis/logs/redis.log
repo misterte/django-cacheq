@@ -65,3 +65,71 @@
 [3448] 27 Jul 15:19:36.453 * Background saving started by pid 17990
 [17990] 27 Jul 15:19:36.459 * DB saved on disk
 [3448] 27 Jul 15:19:36.463 * Background saving terminated with success
+[3448] 27 Jul 15:24:37.002 * 10 changes in 300 seconds. Saving...
+[3448] 27 Jul 15:24:37.003 * Background saving started by pid 18448
+[18448] 27 Jul 15:24:37.004 * DB saved on disk
+[3448] 27 Jul 15:24:37.014 * Background saving terminated with success
+[3448 | signal handler] (1438036306) Received SIGTERM, scheduling shutdown...
+[3448] 27 Jul 15:31:46.766 # User requested shutdown...
+[3448] 27 Jul 15:31:46.766 * Saving the final RDB snapshot before exiting.
+[3448] 27 Jul 15:31:46.767 * DB saved on disk
+[3448] 27 Jul 15:31:46.767 * Removing the unix socket file.
+[3448] 27 Jul 15:31:46.767 # Redis is now ready to exit, bye bye...
+[19143] 27 Jul 15:31:47.796 * Max number of open files set to 10032
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 2.6.10 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in stand alone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+ |    `-._   `._    /     _.-'    |     PID: 19143
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+[19143] 27 Jul 15:31:47.798 # Server started, Redis version 2.6.10
+[19143] 27 Jul 15:31:47.798 * DB loaded from disk: 0.000 seconds
+[19143] 27 Jul 15:31:47.798 * The server is now ready to accept connections at /var/tmp/cacheqtest-redis.sock
+[19143] 27 Jul 15:36:48.006 * 10 changes in 300 seconds. Saving...
+[19143] 27 Jul 15:36:48.007 * Background saving started by pid 19610
+[19610] 27 Jul 15:36:48.008 * DB saved on disk
+[19143] 27 Jul 15:36:48.018 * Background saving terminated with success
+[19143] 27 Jul 15:41:49.008 * 10 changes in 300 seconds. Saving...
+[19143] 27 Jul 15:41:49.009 * Background saving started by pid 20049
+[20049] 27 Jul 15:41:49.010 * DB saved on disk
+[19143] 27 Jul 15:41:49.020 * Background saving terminated with success
+[19143] 27 Jul 15:52:24.513 * 10 changes in 300 seconds. Saving...
+[19143] 27 Jul 15:52:24.513 * Background saving started by pid 20974
+[20974] 27 Jul 15:52:24.514 * DB saved on disk
+[19143] 27 Jul 15:52:24.524 * Background saving terminated with success
+[19143] 27 Jul 15:57:25.006 * 10 changes in 300 seconds. Saving...
+[19143] 27 Jul 15:57:25.007 * Background saving started by pid 21405
+[21405] 27 Jul 15:57:25.008 * DB saved on disk
+[19143] 27 Jul 15:57:25.018 * Background saving terminated with success
+[19143] 27 Jul 16:15:18.686 * 1 changes in 900 seconds. Saving...
+[19143] 27 Jul 16:15:18.686 * Background saving started by pid 22983
+[22983] 27 Jul 16:15:18.692 * DB saved on disk
+[19143] 27 Jul 16:15:18.696 * Background saving terminated with success
+[19143] 27 Jul 16:20:19.002 * 10 changes in 300 seconds. Saving...
+[19143] 27 Jul 16:20:19.002 * Background saving started by pid 23415
+[23415] 27 Jul 16:20:19.004 * DB saved on disk
+[19143] 27 Jul 16:20:19.013 * Background saving terminated with success
+[19143] 27 Jul 16:25:20.008 * 10 changes in 300 seconds. Saving...
+[19143] 27 Jul 16:25:20.009 * Background saving started by pid 23850
+[23850] 27 Jul 16:25:20.010 * DB saved on disk
+[19143] 27 Jul 16:25:20.019 * Background saving terminated with success
+[19143] 27 Jul 16:30:21.005 * 10 changes in 300 seconds. Saving...
+[19143] 27 Jul 16:30:21.005 * Background saving started by pid 24295
+[24295] 27 Jul 16:30:21.006 * DB saved on disk
+[19143] 27 Jul 16:30:21.016 * Background saving terminated with success
+[19143] 27 Jul 16:35:22.000 * 10 changes in 300 seconds. Saving...
+[19143] 27 Jul 16:35:22.001 * Background saving started by pid 24750
+[24750] 27 Jul 16:35:22.001 * DB saved on disk
+[19143] 27 Jul 16:35:22.012 * Background saving terminated with success

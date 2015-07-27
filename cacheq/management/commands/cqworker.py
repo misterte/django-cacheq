@@ -7,10 +7,12 @@ from cacheq import get_worker
 
 class Command(BaseCommand):
     help = """Runs a worker named 'worker' polling a specific queue named 
-    'queue' and an idle wait time of 'pulse' seconds. If the 'burst' option 
-    is used, the worker will run all pending jobs and exit."""
+    'queue', in get_cache('using') and an idle wait time of 'pulse' seconds. 
+    If the 'burst' option is used, the worker will run all pending jobs and exit."""
     
     option_list = BaseCommand.option_list + (
+        make_option('-u', '--using', action='store', type='string', dest='using',
+            default='default', help="Cache to use, as in get_cache('mycache')."),
         make_option('-q', '--queue', action='store', type='string', dest='queue_name',
             default='default', help="Queue name, defaults to 'default'."),
         make_option('-n', '--name', action='store', type='string', dest='worker_name',
@@ -22,6 +24,7 @@ class Command(BaseCommand):
     
     def handle(self, *args, **options):
         worker = get_worker(queue_name=options['queue_name'], 
+                            using=options['using'],
                             worker_name=options['worker_name'],
                             pulse=options['pulse'])
         worker.run(burst=options['burst'])

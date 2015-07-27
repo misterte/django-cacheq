@@ -102,9 +102,9 @@ class Worker(object):
     >>> worker = Worker(cq)
     >>> worker.run(burst=True, verbose=True)  # you can also run the worker in burst mode.
     """
-    def __init__(self, cacheq, pulse=1, worker_name='worker'):
+    def __init__(self, cacheq, pulse=1.0, worker_name='worker'):
         self.cacheq = cacheq
-        self.pulse = max(pulse, 1)
+        self.pulse = max(pulse, 1.0)
         self.worker_name = worker_name
     
     def _print(self, message, level='INFO'):

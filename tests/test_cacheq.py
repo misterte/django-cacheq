@@ -119,11 +119,11 @@ class LockFileCacheQueueTests(TestCase):
         self.cq.release()
 
 
-if 'test' in sys.argv:
-    _sqsettings = getattr(settings, 'CACHEQ', {})
-    using = _sqsettings.get('MEMCACHED_TESTS_USING', 'default')
-    if not type(get_cache(using)) is MemcachedCache:
-        print "Warning: exsutils.MemcachedCacheQueueTests will be run as dummy, as cache backend in not compatible."
+cqsettings = getattr(settings, 'CACHEQ', {})
+using = cqsettings.get('MEMCACHED_TESTS_USING', 'default')
+if not type(get_cache(using)) is MemcachedCache:
+    print("""Warning: exsutils.MemcachedCacheQueueTests will be run as dummy, 
+    as cache backend in not compatible.""")
 
 
 class ConditionalBackendTester(object):
@@ -377,3 +377,5 @@ class CommandsTests(TestCase):
         call_command('cqclear', 'failed')
         self.assertEqual(Job.objects.count(), 4)
         self.assertFalse(Job.objects.filter(status=Job.FAILED).exists())
+        call_command('cqclear', 'all', no_input=True)
+        self.assertEqual(Job.objects.count(), 0)

@@ -85,6 +85,9 @@ class BaseCacheQueue(object):
         # setup
         _cqsettings = getattr(settings, 'CACHEQ', {})
         self.lockfile = _cqsettings.get('LOCKFILE', '/var/tmp/cacheq.lock')
+        # create lockfile if it doesn't exist
+        with open(self.lockfile, 'w+') as f:
+            pass
         self.client = client or get_cache(_cqsettings.get('CACHE', 'default'))
         self.name = name
         # lock and key registry need to last  indefinately

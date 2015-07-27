@@ -43,3 +43,6 @@
 2015-07-27 12:36:30,192 INFO spawned: 'memcached' with pid 3449
 2015-07-27 12:36:31,862 INFO success: redis entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2015-07-27 12:36:31,862 INFO success: memcached entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-07-27 15:31:46,768 INFO stopped: redis (exit status 0)
+2015-07-27 15:31:47,779 INFO spawned: 'redis' with pid 19143
+2015-07-27 15:31:48,799 INFO success: redis entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
