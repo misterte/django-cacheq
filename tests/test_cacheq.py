@@ -19,6 +19,7 @@ from django.contrib.auth.models import User
 from django.core.cache import get_cache
 from django.core.cache.backends.memcached import MemcachedCache
 from django.conf import settings
+from django.core.management import call_command
 from cacheq.models import Job
 from cacheq.utils import get_cache_queue
 from cacheq.base import CacheQ, get_worker
@@ -348,4 +349,31 @@ class WorkerTests(TestCase):
     def tearDown(self):
         # remove tempfile
         os.remove(self.tempfname)
+
+
+class CommandsTests(TestCase):
+    """
+    Tests that we can both run worker and clear jobs using custom commands.
+    """
+    def setUp(self):
+        self.cq = CacheQ(name='CacheQTests')
     
+    def test_run_worker(self):
+        """
+        Tests that we can run a worker. We will test only with burst mode option.
+        """
+        self.cq.enqueue(operator.add, 1,2)
+        self.assertEqual(Job.objects.filter(status=Job.PENDING).count(), 1)
+        call_command('cqworker', burst=True, queue_name='CacheQTests')
+        self.assertEqual(Job.objects.filter(status=Job.DONE).count(), 1)
+    
+    def test_clear_jobs(self):
+        """
+        Tests that we can clear jobs depending on status.
+        """
+        for status in [Job.PENDING, Job.PENDING, Job.FAILED, Job.FAILED, Job.DONE, Job.DONE]:
+            Job.objects.create(status=status)
+        self.assertEqual(Job.objects.count(), 6)
+        call_command('cqclear', 'failed')
+        self.assertEqual(Job.objects.count(), 4)
+        self.assertFalse(Job.objects.filter(status=Job.FAILED).exists())

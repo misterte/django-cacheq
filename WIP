@@ -1,1 +1,47 @@
-Working on tests.
+####################
+# SimpleQ
+####################
+@task
+def run_worker(queue_name, worker_name='worker', pulse=1):
+    """
+    Runs a worker named 'worker' polling a specific queue named 'queue' and
+    an idle wait time of 'pulse' seconds.
+    """
+    pulse = float(pulse)
+    worker = get_worker(queue_name=queue_name, worker_name=worker_name, pulse=pulse)
+    worker.run()
+
+@task
+def clear_jobs(done='true', failed='true', pending='false'):
+    """
+    Clears exsutils.Job objects.
+    
+    Args
+    
+        done:       If 'true', clear all jobs with status = Job.DONE.
+        failed:     If 'true', clear all jobs with status = Job.FAILED.
+        pending:    If 'true', clear all jobs with status = Job.PENDING.
+    """
+    q = Q()
+    if done.lower() == 'true':
+        q |= Q(status=Job.DONE)
+    if failed.lower() == 'true':
+        q |= Q(status=Job.FAILED)
+    if pending.lower() == 'true':
+        q |= Q(status=Job.PENDING)
+    jobs = Job.objects.filter(q).distinct()
+    print "About to delete %d jobs accoring to done=%s, failed=%s, pending=%s" % (
+            jobs.count(), done, failed, pending)
+    print "Done:", jobs.filter(status=Job.DONE).count()
+    print "Failed:", jobs.filter(status=Job.FAILED).count()
+    print "Pending:", jobs.filter(status=Job.PENDING).count()
+    print
+    while True:
+        proceed = raw_input("Proceed? (y/n): ")
+        if not proceed.lower() in ['y', 'n']:
+            print "Please enter a valid option, you entered '%s'" % proceed
+            continue
+        break
+    if proceed.lower() == 'y':
+        print "Deleting..."
+        jobs.delete()

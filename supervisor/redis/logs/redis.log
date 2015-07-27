@@ -53,3 +53,15 @@
 [3448] 27 Jul 12:45:52.578 * Background saving started by pid 4276
 [4276] 27 Jul 12:45:52.579 * DB saved on disk
 [3448] 27 Jul 12:45:52.588 * Background saving terminated with success
+[3448] 27 Jul 12:50:53.006 * 10 changes in 300 seconds. Saving...
+[3448] 27 Jul 12:50:53.007 * Background saving started by pid 4769
+[4769] 27 Jul 12:50:53.008 * DB saved on disk
+[3448] 27 Jul 12:50:53.018 * Background saving terminated with success
+[3448] 27 Jul 12:55:54.006 * 10 changes in 300 seconds. Saving...
+[3448] 27 Jul 12:55:54.007 * Background saving started by pid 5218
+[5218] 27 Jul 12:55:54.008 * DB saved on disk
+[3448] 27 Jul 12:55:54.018 * Background saving terminated with success
+[3448] 27 Jul 15:19:36.453 * 1 changes in 900 seconds. Saving...
+[3448] 27 Jul 15:19:36.453 * Background saving started by pid 17990
+[17990] 27 Jul 15:19:36.459 * DB saved on disk
+[3448] 27 Jul 15:19:36.463 * Background saving terminated with success
