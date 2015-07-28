@@ -15,8 +15,8 @@ Install django-cacheq::
 Requirements
 
 - django>=1.5.1
-- jsonfield==1.0.3
-- lockfile==0.10.2
+- jsonfield>=1.0.3
+- lockfile>=0.10.2
 
 Add it to your installed apps::
 
@@ -25,7 +25,7 @@ Add it to your installed apps::
         'cacheq',
     )
 
-And that's it with setup. You can add some basic settings too, but the are not really required.::
+And that's it with setup. You can add some basic settings too, but they are not really required.::
     
     CACHES = {
         'default: ...,
@@ -50,7 +50,7 @@ Then use it in your project::
     import operator
     from cacheq import CacheQ
     
-    cq = CacheQ(name='myqueue')
+    cq = CacheQ(name='myqueue', using='cacheq') # as in get_cache('cacheq')
     
     # either enqueue one job
     job = cq.enqueue(operator.add, 1, 2)
