@@ -18,12 +18,15 @@ Requirements
 - jsonfield>=1.0.3
 - lockfile>=0.10.2
 
-Add it to your installed apps::
+Add it to your installed apps and run syncdb::
 
     INSTALLED_APPS = (
         ...
         'cacheq',
     )
+    
+    # console
+    python manage.py syncdb
 
 And that's it with setup. You can add some basic settings too, but they are not really required.::
     
