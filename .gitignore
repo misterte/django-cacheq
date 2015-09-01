@@ -2,6 +2,7 @@ supervisor/logs/*
 supervisor/memcached/logs/*
 supervisor/redis/logs/*
 supervisor/redis/data/*
+supervisor/supervisord.pid
 
 *.py[cod]
 
