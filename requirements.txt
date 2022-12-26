@@ -1,5 +1,5 @@
 django>=1.5.1
-wheel==0.24.0
+wheel==0.38.1
 # Additional requirements go here
 jsonfield==1.0.3
 lockfile==0.10.2
